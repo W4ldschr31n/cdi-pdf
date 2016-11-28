@@ -1,0 +1,15 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 127.0.0.1
+    database_port: null
+#    database_name: c9
+    database_name: revueart
+#    database_user: mathou44
+    database_user: info2-2015-revar
+#    database_password: null
+    database_password: revart
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    secret: b7cbe99fb2b4e1febabda5ef4f7ac175aa47ba4f

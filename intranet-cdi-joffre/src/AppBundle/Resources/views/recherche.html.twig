@@ -1,0 +1,31 @@
+{% extends '::base.html.twig' %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/base.css') }}"/>
+{% endblock %}
+
+{% block body %}
+<section id="contenu">
+    <h2 class="fil_ariane"><a href="#">Accueil</a> > RECHERCHE</h2>
+    <section class="section" style="margin-bottom: 40px; position: relative; top: -10px;">
+        <h3 style="margin: 0; font-size: 14px; font-weight: normal; text-transform: uppercase; margin-bottom: 5px; margin-top: -10px;">Recherche :</h3>
+        {% include 'AppBundle::formulaireRecherche.html.twig' %}
+    </section>
+</section>
+
+<script type="text/javascript">
+    document.getElementById("recherche_avancee").addEventListener("click", function(){
+        // Afficher
+        if(document.getElementById("champs_recherche_avancee").style.display == "none"){
+            document.getElementById("champs_recherche_avancee").style.display = "block";
+            document.getElementById("recherche_avancee").innerHTML = "Fermer la recherche avancée";
+        }
+        
+        // Cacher
+        else{
+            document.getElementById("champs_recherche_avancee").style.display = "none";
+            document.getElementById("recherche_avancee").innerHTML = "Recherche avancée";
+        }
+    });
+</script>
+{% endblock %}

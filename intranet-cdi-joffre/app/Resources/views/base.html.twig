@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Bienvenue - CDI{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="stylesheet" href="{{ asset('css/base.css') }}"/>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        <header>
+            <div id="inner-header">
+                <div id="logo">
+                    <a href="{{ path('accueil') }}"><img src="{{ asset('img/logo.png') }}" /></a>
+                </div>
+                <h1>Centre de documentation</h1>
+                <nav>
+                    <ul>
+                        <li><a href="http://www.univ-nantes.fr/">Université</a></li>
+                        <li><a href="">À propos</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        {% if app.session.has('user') %}
+        <section id="user">
+            <div id="inner-user">
+
+                <img src="http://www.buira.org/assets/images/shared/default-profile.png" alt="Photo de profil" id="photo_profil"/>
+                <p id="nom_profil" style="font-family: Arial">{{ app.session.get('user')|upper }} - {{ app.session.get('status')|upper }}</p>
+                <a class="deconnexion" href="{{ path('deconnexion') }}">Déconnexion</a>
+              
+
+            </div>
+        </section>
+        {% endif %}
+        <div id="contenu">
+            {% block body %}{% endblock %}
+        </div>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

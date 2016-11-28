@@ -1,0 +1,341 @@
+
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(18) "/comptes/cottais-k"
+  }
+  [3]=>
+  string(13) "homedirectory"
+  ["sambahomedrive"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(2) "Z:"
+  }
+  [4]=>
+  string(14) "sambahomedrive"
+  ["sambasid"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(48) "S-1-5-21-1927198471-1023572077-4159082931-264340"
+  }
+  [5]=>
+  string(8) "sambasid"
+  ["postaladdress"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(58) "3 rue du Marechal Joffre $ BP 34103 $ 44041 NANTES Cedex 1"
+  }
+  [6]=>
+  string(13) "postaladdress"
+  ["objectclass"]=>
+  array(11) {
+    ["count"]=>
+    int(10)
+    [0]=>
+    string(20) "organizationalPerson"
+    [1]=>
+    string(6) "person"
+    [2]=>
+    string(12) "posixAccount"
+    [3]=>
+    string(13) "unAuxPersonne"
+    [4]=>
+    string(15) "sambaSamAccount"
+    [5]=>
+    string(13) "shadowAccount"
+    [6]=>
+    string(13) "localPersonne"
+    [7]=>
+    string(13) "inetOrgPerson"
+    [8]=>
+    string(3) "top"
+    [9]=>
+    string(12) "supannPerson"
+  }
+  [7]=>
+  string(11) "objectclass"
+  ["departmentnumber"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(3) "749"
+  }
+  [8]=>
+  string(16) "departmentnumber"
+  ["unlocalisation"]=>
+  array(3) {
+    ["count"]=>
+    int(2)
+    [0]=>
+    string(41) "IUT DE NANTES/CENTRE DOCUMENTATION,JOFFRE"
+    [1]=>
+    string(47) "IUT DE NANTES/CENTRE DOCUMENTATION,LA-FLEURIAYE"
+  }
+  [9]=>
+  string(14) "unlocalisation"
+  ["loginshell"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(9) "/bin/bash"
+  }
+  [10]=>
+  string(10) "loginshell"
+  ["sn"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(7) "COTTAIS"
+  }
+  [11]=>
+  string(2) "sn"
+  ["displayname"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(16) "Kristell COTTAIS"
+  }
+  [12]=>
+  string(11) "displayname"
+  ["givenname"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(8) "Kristell"
+  }
+  [13]=>
+  string(9) "givenname"
+  ["uid"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(9) "cottais-k"
+  }
+  [14]=>
+  string(3) "uid"
+  ["gecos"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(16) "Kristell COTTAIS"
+  }
+  [15]=>
+  string(5) "gecos"
+  ["cn"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(16) "Kristell COTTAIS"
+  }
+  [16]=>
+  string(2) "cn"
+  ["title"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(6) "IATOSS"
+  }
+  [17]=>
+  string(5) "title"
+  ["l"]=>
+  array(3) {
+    ["count"]=>
+    int(2)
+    [0]=>
+    string(6) "JOFFRE"
+    [1]=>
+    string(12) "LA-FLEURIAYE"
+  }
+  [18]=>
+  string(1) "l"
+  ["shadowexpire"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(2) "-1"
+  }
+  [19]=>
+  string(12) "shadowexpire"
+  ["shadowmin"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(1) "0"
+  }
+  [20]=>
+  string(9) "shadowmin"
+  ["shadowmax"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(5) "99999"
+  }
+  [21]=>
+  string(9) "shadowmax"
+  ["shadowwarning"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(1) "7"
+  }
+  [22]=>
+  string(13) "shadowwarning"
+  ["shadowinactive"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(2) "-1"
+  }
+  [23]=>
+  string(14) "shadowinactive"
+  ["shadowflag"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(1) "1"
+  }
+  [24]=>
+  string(10) "shadowflag"
+  ["dynaetat"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(1) "N"
+  }
+  [25]=>
+  string(8) "dynaetat"
+  ["manager"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(67) "uid=cottais-k,ou=personnel,ou=users,ou=comptes,dc=univ-nantes,dc=fr"
+  }
+  [26]=>
+  string(7) "manager"
+  ["supannroleentite"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(45) "[role={DYNA}org_resp][type={DYNA}O][code=749]"
+  }
+  [27]=>
+  string(16) "supannroleentite"
+  ["supannrolegenerique"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(14) "{DYNA}org_resp"
+  }
+  [28]=>
+  string(19) "supannrolegenerique"
+  ["supannentiteaffectation"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(3) "749"
+  }
+  [29]=>
+  string(23) "supannentiteaffectation"
+  ["supannentiteaffectationprincipale"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(3) "749"
+  }
+  [30]=>
+  string(33) "supannentiteaffectationprincipale"
+  ["ou"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(34) "IUT DE NANTES/CENTRE DOCUMENTATION"
+  }
+  [31]=>
+  string(2) "ou"
+  ["login"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(9) "cottais-k"
+  }
+  [32]=>
+  string(5) "login"
+  ["sambaprimarygroupsid"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(46) "S-1-5-21-1927198471-1023572077-4159082931-5001"
+  }
+  [33]=>
+  string(20) "sambaprimarygroupsid"
+  ["gidnumber"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(4) "2000"
+  }
+  [34]=>
+  string(9) "gidnumber"
+  ["population"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(9) "PERSONNEL"
+  }
+  [35]=>
+  string(10) "population"
+  ["shadowlastchange"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(5) "16780"
+  }
+  [36]=>
+  string(16) "shadowlastchange"
+  ["telephonenumber"]=>
+  array(2) {
+    ["count"]=>
+    int(1)
+    [0]=>
+    string(19) "0228092183 (492183)"
+  }
+  [37]=>
+  string(15) "telephonenumber"
+  ["count"]=>
+  int(38)
+  ["dn"]=>
+  string(67) "uid=cottais-k,ou=personnel,ou=users,ou=comptes,dc=univ-nantes,dc=fr"
+}

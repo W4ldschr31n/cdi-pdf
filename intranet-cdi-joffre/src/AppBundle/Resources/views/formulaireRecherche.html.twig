@@ -1,0 +1,28 @@
+<form method="post" action="{{ path('article_recherche') }}">
+    <input type="text" id="recherche" value="{{ app.request.get('recherche') }}" name="recherche" placeholder="Votre mot clé, titre, expression, etc" style="height: 33px; width: 400px; padding: 0; padding-left: 15px; margin: 0; border: none;"/>
+    dans
+    <select name="type">
+        <option value="tousChamps">Tous les champs</option>
+        <option value="titre">Titre de l'article</option>
+        <option value="auteur">Nom de l'auteur</option>
+        <option value="periodique">Nom du périodique</option>
+    </select>
+    <input type="submit" value="Rechercher"/>
+    <p id="recherche_avancee">Recherche avancée</p>
+    <br/><br/>
+    <div class="separation_bas" id="champs_recherche_avancee" style="display: none;">
+        <select name="operateur">
+            <option value="et">ET</option>
+            <option value="ou">OU</option>
+            <option value="sauf">SAUF</option>
+        </select><br/><br/>
+        <input type="text" value="{{ app.request.get('rechercheAvancee') }}" name="rechercheAvancee" placeholder="Votre mot clé, titre, expression, etc" style="height: 33px; width: 400px; padding: 0 0 0 15px;margin: 0; border: none;"/>
+        dans
+        <select name="typeAvancee">
+            <option value="tousChamps">Tous les champs</option>
+            <option value="titre">Titre de l'article</option>
+            <option value="auteur">Nom de l'auteur</option>
+            <option value="periodique">Nom du périodique</option>
+        </select>
+    </div>
+</form>

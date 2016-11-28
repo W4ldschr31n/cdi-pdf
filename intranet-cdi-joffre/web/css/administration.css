@@ -1,0 +1,34 @@
+.tuile{
+    width: 300px;
+    height: 300px;
+    background-color: #4e678b;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.tuile:hover{
+    background-color: #33445c;
+}
+
+.separation{
+    display: inline-block;
+    width: 40px;
+}
+
+.tuile img{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    margin-top: 65px;
+}
+
+.tuile h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 35px;
+}

@@ -1,0 +1,8 @@
+app:
+    resource: "@AppBundle/Resources/config/routing.yml"
+    prefix:   /
+
+cdi:
+    resource: "@CdiBundle/Resources/config/routing.yml"
+    prefix:   /
+
